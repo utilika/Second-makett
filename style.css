@@ -776,6 +776,25 @@ button{cursor: pointer;}
     text-transform: uppercase;
 }
 
+@media (max-width: 800px) {
+    .subscribe__button {
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .subscribe__email{
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .subscribe__heading{
+        text-align: center;
+    }
+    .subscribe__about{
+        text-align: center;
+    }
+}
+
 /* Get in touch */
 
 .feedback{
