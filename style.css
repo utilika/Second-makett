@@ -69,6 +69,7 @@ button{cursor: pointer;}
 
 /* Header */
 .header-wraper{
+    padding: 0 1vw;
     padding-top: 29px;
     background-color: #F6F2F2;
 }
@@ -165,7 +166,6 @@ button{cursor: pointer;}
     left: 50%;
     transform: translate(-50%, 100%);
     position: absolute;
-    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     padding: 0;
@@ -199,9 +199,10 @@ button{cursor: pointer;}
     text-transform: uppercase;
     text-decoration: none;
     color: #E0E0E0;
+    margin: 0 auto;
 }
 
-.popup-menu-link:hover{
+.popup-menu-li:hover{
     background-color: #ff3f40;
 }
 
@@ -222,7 +223,8 @@ button{cursor: pointer;}
     display: block;
     width: 100%;
     background-color: #f6f2f2;
-    padding: 102px 0px 110px;
+    padding: 102px 1vw 110px;
+    box-sizing: border-box;
 }
 .intro {
     display: flex;
@@ -330,7 +332,7 @@ button{cursor: pointer;}
     display: flex;
     max-width: 1249px;
     margin: 0 auto;
-    padding: 107px 0 90px;
+    padding: 107px 1vw 90px;
     border-bottom: 2px solid #ECECEC;
     justify-content: space-between;
 }
@@ -540,7 +542,7 @@ button{cursor: pointer;}
 .team{
     max-width: 1249px;
     margin: 0 auto;
-    padding: 65px 0 53px;
+    padding: 65px 1vw 53px;
     text-align: left;
 }
 .team-header {
@@ -800,7 +802,7 @@ button{cursor: pointer;}
 .feedback{
     max-width: 100%;
     margin: 0 auto;
-    padding: 104px 0 107px;
+    padding: 104px 1vw 107px;
 }
 
 .feedback-header {
